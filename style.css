@@ -1,0 +1,110 @@
+body {
+  font-family: 'Martel', serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #2B394A;
+  text-align: center;
+}
+
+h1 {
+  color: #FDA5A4;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  padding-top: 10px;
+  margin: 1px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: #2B394A;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding:  5px;
+  margin: 3px
+}
+
+a {
+  color: #2B394A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FDA5A4
+}
+
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: #e6ede7;
+  padding: 30px;
+  margin: 15px;
+  border: 1px solid lightgrey;                        /* White background */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 8px 5px rgba(0,0,0,.1);
+}
+
+
+.btn-rose {
+  color: white;
+  background-color: #FDA5A4;
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 15px;
+  margin: 40px;
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 8px 5px rgba(0,0,0,.1);
+}
+
+.footer {
+  margin: 30px
+  padding: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card_white_background {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
